@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <p>El omar es gey</p>
+      <p>El leito es gey</p>
     </>
   )
 }
