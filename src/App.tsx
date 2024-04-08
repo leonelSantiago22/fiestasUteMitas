@@ -4,7 +4,6 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Landing from './pages/landing'
 function App() {
-
   return (
     <BrowserRouter>
     <Navbar></Navbar>
@@ -14,5 +13,4 @@ function App() {
     </BrowserRouter>
   )
 }
-
 export default App
