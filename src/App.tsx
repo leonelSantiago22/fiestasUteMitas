@@ -1,14 +1,17 @@
 import { useState } from 'react'
-
+import Navbar from './components/navbar'
 import './App.css'
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Landing from './pages/landing'
 function App() {
 
-
   return (
-    <>
-      <p>El omar es gey</p>
-    </>
+    <BrowserRouter>
+    <Navbar></Navbar>
+      <Routes>
+              <Route element={<Landing/>} path='/'/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
